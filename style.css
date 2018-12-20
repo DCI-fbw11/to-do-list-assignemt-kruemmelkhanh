@@ -1,0 +1,118 @@
+body {
+   background:grey;/* fallback for old browsers */
+  /* background: -webkit-linear-gradient(left,#3e0be4 , #faaca8); */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#outside{
+    border: double;
+    background-color: rgba(236, 236, 223, 0.781);
+    border-radius: 25px;
+    align-self: center;
+
+}
+
+#todo{
+    width: 66%;
+}
+
+#ollist{
+    padding: 20px;
+}
+
+#ullist{
+    padding: 20px;
+}
+
+#form{
+    align-content: center;
+    padding-left: 1.5%;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+ol.a {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: upper-roman;
+    
+}
+
+ol li {
+    background: #e6adad;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 25px;
+    padding-left: 2%;
+    text-align: left;
+
+}
+
+ul li {
+    border-radius: 25px;
+    background: #47e655;
+    margin: 5px;
+    font-size: 25px;
+    padding-left: 4%;
+    text-align: left;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.button:hover {opacity: 1}
+
+
+
+#delbut{
+    background:url(/img/error.png) center no-repeat; background-size: 100% 100%;
+    border: none;
+    
+}
+
+#delbut span{
+    display: none;
+} 
+
+
+#subbut{
+    background:url(/img/plus.png) center no-repeat; background-size: 100% 100%;
+    border: none;
+
+    
+}
+
+#subbut span{
+    display: none;
+} 
+
+#movebut{
+    background:url(/img/success.png) center no-repeat; background-size: 100% 100%;
+    border: none;
+
+    
+}
+
+#movebut span{
+    display: none;
+} 
+
